@@ -1,0 +1,43 @@
+name: "Public Disorder"
+description: "Report a public disorder and unrest incident."
+title: "Public Disorder - [EVENT DESCRIPTION HERE]"
+labels: "Response Needed: Moderation,Incident Type: Public Disorder,Category: Needs Triage"
+body:
+- type: markdown
+  attributes:
+    value: DO NOT SEND PRIVATE INFORMATION IN THIS FORM. IF YOU NEED TO, TELL STAFF TO CONTACT YOU.
+- type: input
+  id: exploiterusername
+  attributes:
+    label: What is the undername(s) of the offenders?
+    description: "Roblox username(s), not display name(s)."
+    placeholder: "badman0325,evilboy2"
+  validations:
+    required: true
+- type: input
+  id: reporter
+  attributes:
+    label: What is your username?
+    description: "Username, not display name."
+    placeholder: "goodman2"
+  validations:
+    required: true
+- type: input
+  id: contact
+  attributes:
+    label: Contact
+    description: How can we contact you if we need more details?"
+    placeholder: "Discord: Example#0000"
+- type: input
+  id: location
+  attributes:
+    label: Where did this occur?
+    description: What game / place.
+    placeholder: "Naval Warfare Remastered"
+  validations:
+    required: true
+- type: textarea
+  id: notes
+  attributes:
+    label: Is there anything else the responding staff should be aware of?
+    description: "What they are doing, how serious, etc."
