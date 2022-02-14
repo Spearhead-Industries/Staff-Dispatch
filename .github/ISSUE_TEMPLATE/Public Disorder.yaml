@@ -1,7 +1,7 @@
 name: "Public Disorder"
 description: "Report a public disorder and unrest incident."
 title: "Public Disorder - [EVENT DESCRIPTION HERE]"
-labels: "Response Needed: Moderation,Incident Type: Public Disorder,Category: Needs Triage"
+labels: "Response Needed: Moderation,Incident Type: Public Disorder,Category: Triage Needed"
 body:
 - type: markdown
   attributes:
